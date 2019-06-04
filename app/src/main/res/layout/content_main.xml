@@ -10,40 +10,5 @@
     tools:context=".MainActivity">
 
 
-    <EditText
-        android:id="@+id/editText3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Number 1"
-        android:inputType="number"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="98dp" />
 
-    <EditText
-        android:id="@+id/editText4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Number 2"
-        android:inputType="number"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="193dp" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="onButtonClick"
-        android:text="SUM"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="337dp" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="154dp"
-        android:layout_height="43dp"
-        android:text="Result"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="36dp" />
 </android.support.constraint.ConstraintLayout>
